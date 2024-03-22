@@ -254,3 +254,9 @@ h2 {
     color: #ffe1b8;
     text-emphasis: #000000;
 }
+@media (max-width: 768px) {
+    card {
+        margin: 0;
+        padding: 0;
+    }
+}

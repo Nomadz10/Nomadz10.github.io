@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79105461-889c-4367-bf03-9820d739a5ad" name="Changes" comment="update to current format">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="79105461-889c-4367-bf03-9820d739a5ad" name="Changes" comment="changed w" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +66,7 @@
       <workItem from="1710897909715" duration="18489000" />
       <workItem from="1710968215804" duration="18135000" />
       <workItem from="1711015967473" duration="1201000" />
-      <workItem from="1711065966024" duration="37880000" />
+      <workItem from="1711065966024" duration="38196000" />
     </task>
     <task id="LOCAL-00001" summary="update to current format">
       <created>1711114679820</created>
@@ -91,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711118924055</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed w">
+      <created>1711119424623</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711119424623</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update to current format" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to current format" />
+    <MESSAGE value="changed w" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed w" />
   </component>
 </project>
