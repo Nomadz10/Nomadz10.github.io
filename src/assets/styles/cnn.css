@@ -1,0 +1,264 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: auto; /* Ensure vertical scrolling is allowed */
+}
+
+.main-container {
+}
+
+.fixed-height-card .card-body {
+    max-height: 600px; /* Adjust to the height of your fixed card */
+    overflow-y: auto; /* Scroll within the card content */
+}
+/* Global Scrollbar Styles for Webkit Browsers */
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    width: 8px; /* Adjust the width for the whole page scrollbar */
+}
+
+html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+    background: rgba(5, 5, 5, 0.25); /* Light grey track for the whole page */
+}
+
+html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+    background: #242424; /* Dark grey handle for the whole page */
+}
+
+html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker grey handle on hover for the whole page */
+}
+.card {
+    color: #E0E0E0;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba(5, 248, 220, 0);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur(10px);
+    padding: 10px;
+}
+
+.pageheader{
+    color: #1DB9C3;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pad{
+    padding-top: 0px;
+    padding-bottom: 1px;
+}
+.select {
+    width: 200px;
+    padding-left: 0px;
+}
+.image-container, .output-container {
+    color: #1DB9C3;
+    flex: 1;
+}
+#convolution-matrix input, #iterations {
+    width: 3em;
+    padding-left: 8px;
+    text-align: center;
+    -webkit-appearance: checkbox;
+    margin: 1px;
+}
+#convolution-matrix input::-webkit-outer-spin-button,
+#convolution-matrix input::-webkit-inner-spin-button {
+    display: none;
+}
+.form-control-file {
+    width: auto;
+}
+@media (min-width: 786px) {
+    .form-control-file {
+        width: 300px;
+    }
+}
+.icons:hover span {
+    color: #000000 !important; /* Color on hover */
+}
+
+.footer{
+    color: #E0E0E0;
+    font-family:  'Nunito', sans-serif;
+}
+.footer-text{
+    color: #E0E0E0;
+}
+.freetext{
+    color: #E0E0E0;
+}
+.fixed-height-card .card-body {
+    height: 439px; /* Adjust this height as necessary */
+    overflow-y: auto; /* Adds a scrollbar when content overflows */
+}
+.fixed-height-card .card-body::-webkit-scrollbar {
+    width: 5px; /* Scrollbar width */
+}
+
+.fixed-height-card .card-body::-webkit-scrollbar-track {
+    background: #121212;
+    border-radius: 1000px;
+}
+
+.fixed-height-card .card-body::-webkit-scrollbar-thumb {
+    background: rgba(59, 160, 168, 0.96); /* Scrollbar handle color */
+    border-radius: 1000px;
+}
+.fixed-height-card .card-body::-webkit-scrollbar-corner {
+    background: transparent; /* Set the background color of the scrollbar corner */
+}
+.fixed-height-card .card-body::-webkit-scrollbar-thumb:hover {
+    background: #49c2cb; /* Scrollbar handle color on hover */
+}
+.tab{
+    background-color: #121212;
+}
+.links{
+    color: #1DB9C3;
+}
+.links:hover {
+    color: #011473 !important; /* Color on hover */
+}
+.links:visited {
+    color: #1DB9C3; /* Color for visited links, can be the same or different */
+}
+.hr{
+    height: 5px;
+    background-color: #00eeff;
+    box-shadow: 0 10px 32px 0 #ffffff;
+}
+
+/* Added styles */
+.btn-primary{
+    background-color: #1DB9C3;
+}
+.matrix-col .t-div { /* Targeting the specific divs */
+    padding: 5px; /* Removes padding */
+}
+.row.t-row {
+    margin-right: 0px; /* Removes the right margin of the row */
+    margin-left: 0px; /* Removes the left margin of the row */
+}
+.matrix-col .t-div input {
+    border-radius: 10px;
+}
+#save-button {
+    display: none;
+}
+.image-row {
+    display: flex;
+    justify-content: space-between; /* Ensure images are distributed evenly */
+    align-items: center; /* Vertically center images */
+    margin-top: 20px; /* Optional: Add some space above the images */
+}
+
+.image-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%; /* Ensure each image takes up 45% of the screen */
+}
+
+.styled-canvas {
+    max-width: 100%; /* Ensure the canvas resizes to fit the column */
+    border-radius: 15px; /* Apply border radius */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+.styled-input, .styled-select, .styled-button {
+    font-family: 'Arial', sans-serif; /* Match your webpage font */
+    color: #E0E0E0; /* Light text color */
+    border-radius: 10px; /* Rounded corners */
+    border: none; /* Remove default borders */
+    padding: 10px;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: all 0.3s ease; /* Smooth hover transition */
+    outline: none; /* Remove focus outline */
+}
+
+/* Button specific */
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure there's a gap between the buttons */
+.gap-2 {
+    gap: 10px; /* Adjust the gap size between the buttons */
+}
+
+/* Button specific styling */
+.styled-button {
+    background-color: #7115c2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(29, 185, 195, 0.4);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover effect */
+.styled-button:hover {
+    background-color: #149599;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(29, 185, 195, 0.6);
+}
+
+/* Ensure buttons are centered in the parent */
+.row.justify-content-center {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+
+/* Input Field */
+.styled-input {
+    background-color: rgba(0, 0, 0, 0.4); /* Dark transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+    color: #E0E0E0; /* Light text color */
+}
+
+.styled-input:focus {
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly darker on focus */
+    box-shadow: 0px 0px 8px #1DB9C3; /* Neon glow effect */
+}
+
+/* Dropdown Menu */
+.styled-select {
+    background-color: rgba(0, 0, 0, 0.4); /* Dark transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+    color: #E0E0E0;
+    appearance: none; /* Remove default dropdown arrow */
+    padding-right: 50px; /* Add padding to the right */
+    position: relative;
+    justify-content: center;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23E0E0E0" d="M2 5L0 3h4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px bottom 10px;
+}
+
+.styled-select:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 8px #1DB9C3; /* Neon glow effect */
+}
+
+.styled-select option {
+    background-color: #121212; /* Dropdown background */
+    color: #E0E0E0;
+}

@@ -1,0 +1,45 @@
+{
+  "name": "nomadz10-github-io",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@react-three/fiber": "^8.17.9",
+    "@tensorflow/tfjs": "^3.17.0",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.5",
+    "d3-geo": "^3.1.1",
+    "framer-motion": "^11.11.0",
+    "globe.gl": "^2.33.0",
+    "plotly.js-dist": "^2.35.2",
+    "plotly.js-dist-min": "^2.12.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-globe.gl": "^2.0.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1",
+    "react-simple-maps": "^3.0.0",
+    "react-spring": "^9.7.4",
+    "three": "^0.139.0",
+    "topojson": "^3.0.2",
+    "world-atlas": "^2.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

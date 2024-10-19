@@ -1,0 +1,46 @@
+.globe-component-container {
+    perspective: 1000px;
+    width: 100%; /* Adjust to fill parent container */
+    max-width: 900px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Changed from absolute to relative */
+    z-index: 1;
+}
+
+.globe-component-container canvas {
+    border-radius: 50%;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Style for country info box */
+.globe-component-country-info {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 200px;
+    background: rgba(218, 28, 28, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 15; /* Ensure it stays above the globe */
+}
+
+
+
+/* Styling for canvas inside the globe */
+.globe-component-container canvas {
+    border-radius: 50%;
+}
+
+.globe-component-info-card-wrapper {
+    perspective: 1000px; /* Controls how much depth is applied */
+    position: absolute;
+    left: 23%; /* Adjust as needed */
+    width: 300px;
+    z-index: 10;
+}

@@ -4,7 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79105461-889c-4367-bf03-9820d739a5ad" name="Changes" comment="changed w" />
+    <list default="true" id="79105461-889c-4367-bf03-9820d739a5ad" name="Changes" comment="changed w">
+      <change afterPath="$PROJECT_DIR$/public/china1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/china2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/china3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/india1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/india2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/india3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ne_110m_admin_0_countries.geojson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/project1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/project2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/usa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/usa2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/usa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/usa4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chatbot.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FFT.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Globe.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SentAnal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/fft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/json/countries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/ChatBot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/globe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/sent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/vector-soft-black-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/public/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConvolutionTool.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalWebsite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/cnn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micpic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/micpic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpic1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/webpic1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpic2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/webpic2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpic3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/webpic3.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +65,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -25,33 +78,43 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2dvoRk8cG74w500Iz4QK90I1bXx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mnrao/IdeaProjects/PersonalWebsite",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vijay/IdeaProjects/Nomadz10.github.io/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vijay\IdeaProjects\Nomadz10.github.io\public" />
+      <recent name="C:\Users\vijay\IdeaProjects\Nomadz10.github.io\src\assets\styles" />
       <recent name="C:\Users\mnrao\IdeaProjects\PersonalWebsite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vijay\IdeaProjects\Nomadz10.github.io\public" />
+      <recent name="C:\Users\vijay\IdeaProjects\Nomadz10.github.io\src\assets\styles" />
+      <recent name="C:\Users\vijay\IdeaProjects\Nomadz10.github.io\src\assets\js" />
+      <recent name="C:\Users\vijay\IdeaProjects\Nomadz10.github.io\src" />
       <recent name="C:\Users\mnrao\IdeaProjects\PersonalWebsite" />
     </key>
   </component>
@@ -67,6 +130,31 @@
       <workItem from="1710968215804" duration="18135000" />
       <workItem from="1711015967473" duration="1201000" />
       <workItem from="1711065966024" duration="38196000" />
+      <workItem from="1721864614777" duration="2093000" />
+      <workItem from="1721870628047" duration="1024000" />
+      <workItem from="1722807874160" duration="5296000" />
+      <workItem from="1723162385219" duration="103000" />
+      <workItem from="1725320822075" duration="4721000" />
+      <workItem from="1725344094852" duration="3315000" />
+      <workItem from="1725396034616" duration="409000" />
+      <workItem from="1727833892726" duration="1057000" />
+      <workItem from="1727898697775" duration="18854000" />
+      <workItem from="1727979553104" duration="16967000" />
+      <workItem from="1728017247293" duration="2034000" />
+      <workItem from="1728089293089" duration="5076000" />
+      <workItem from="1728244544666" duration="602000" />
+      <workItem from="1728325220931" duration="1461000" />
+      <workItem from="1728357639844" duration="40000" />
+      <workItem from="1728941894832" duration="11898000" />
+      <workItem from="1728976432922" duration="130000" />
+      <workItem from="1728976816770" duration="12000" />
+      <workItem from="1729015733350" duration="28249000" />
+      <workItem from="1729106450029" duration="20886000" />
+      <workItem from="1729152350983" duration="6403000" />
+      <workItem from="1729186293223" duration="26489000" />
+      <workItem from="1729238156947" duration="8448000" />
+      <workItem from="1729310539516" duration="585000" />
+      <workItem from="1729312562920" duration="3904000" />
     </task>
     <task id="LOCAL-00001" summary="update to current format">
       <created>1711114679820</created>

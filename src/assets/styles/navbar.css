@@ -1,0 +1,99 @@
+/* Custom Navbar with glassmorphism effect and flip animation */
+.navbar-custom {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.55)
+    ),
+    linear-gradient(
+            135deg,
+            rgba(131, 4, 4, 0.2) 0%,
+            rgba(24, 63, 161, 0.42) 100%
+    );
+    backdrop-filter: blur(100px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 10px;
+    padding: 0.75rem 2rem;
+    max-width: 95%;
+    margin: 10px auto;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    transform-origin: top; /* Set the origin for the flip */
+    animation: flipInFromTop 2s ease-out; /* Apply the flip animation */
+    opacity: 0.9;
+}
+
+/* Flip animation */
+@keyframes flipInFromTop {
+    0% {
+        transform: rotateX(-180deg); /* Start from a rotated position (flipped up) */
+        opacity: 0; /* Make it invisible initially */
+    }
+    100% {
+        transform: rotateX(0deg); /* End at the normal position */
+        opacity: 0.9; /* Fully visible at the end */
+    }
+}
+
+/* Flexbox for the brand and navigation links */
+.navbar-nav {
+    display: flex;
+    flex-direction: row; /* Align links in a row */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 2rem; /* Space between nav items */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for links */
+.navbar-nav .nav-link:hover {
+    color: #05ff00;
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Brand Logo */
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Dubai, sans-serif;
+    color: antiquewhite;
+    text-decoration: lavender;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #00ffe4;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .navbar-custom {
+        border-radius: 30px;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .navbar-nav {
+        flex-direction: column; /* Stack items vertically on small screens */
+        justify-content: flex-end;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+}

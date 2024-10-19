@@ -1,0 +1,120 @@
+.mgraph-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh; /* Full screen height */
+    padding: 0px;
+    color: #26e361; /* Original text color */
+}
+
+.mchart-container {
+    width: 85%; /* Full width of the container */
+    height: 80vh; /* Make the chart take up 80% of the viewport height */
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(5, 248, 220, 0.04);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.mhover-info {
+    position: fixed;
+    top: 50%; /* Adjust based on the location in the chart */
+    left: 20%; /* Adjust based on the location in the chart */
+    background-color: rgba(38, 36, 36, 0.68); /* Original color */
+    padding: 10px;
+    border-radius: 30px; /* Original rounded corners */
+    color: white;
+    z-index: 10;
+    animation: drawLine 1s ease-out forwards;
+    width: 500px; /* Limit the width to prevent it from exceeding the chart's bounds */
+
+    word-wrap: break-word; /* Ensure long words wrap to the next line */
+    overflow-wrap: break-word;
+    white-space: normal; /* Prevent text from staying on one long line */
+
+    font-family: 'Arial', sans-serif; /* Change to your desired font */
+    font-size: 26px; /* Adjust font size */
+}
+
+/* Retain your animation */
+@keyframes drawLine {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+/* Background effect */
+.mdimmed-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    z-index: 5;
+}
+
+.minfo-box {
+    font-family: 'Verdana', sans-serif; /* Change font family */
+    font-size: 21px; /* Adjust font size */
+    line-height: 1.4; /* Space between lines */
+    text-align: left;
+    overflow-wrap: break-word;
+}
+/* Card Styles */
+.gcards-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Space between cards and the graph */
+}
+
+.gcard {
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba(5, 248, 220, 0);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    backdrop-filter: blur( 20px );
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    width: 45%; /* Adjust width of the cards */
+    max-width: 600px; /* Ensure the cards don’t get too wide */
+    max-height: 300px;
+    text-align: left;
+    overflow-y: scroll;
+}
+.gcard::-webkit-scrollbar {
+    width: 8px; /* Adjust scrollbar width */
+}
+
+.gcard::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); /* Track color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.gcard::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3); /* Scrollbar color */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid transparent; /* Add space around the scrollbar */
+}
+
+.gcard::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5); /* Change color on hover */
+}
+.gcard h2 {
+    font-size: 24px;
+    color: #26e361;
+    margin-bottom: 10px;
+}
+
+.gcard p {
+    font-size: 16px;
+    line-height: 1.5;
+}

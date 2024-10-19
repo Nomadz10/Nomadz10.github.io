@@ -1,0 +1,374 @@
+body {
+
+    /*background: linear-gradient(*/
+    /*        rgb(0, 0, 0),*/
+    /*        rgb(0, 0, 0)*/
+    /*),*/
+    /*linear-gradient(*/
+    /*        135deg,*/
+    /*        rgb(25, 0, 255) 0%,*/
+    /*        rgb(17, 0, 255) 100%*/
+    /*);*/
+    background: url("img_7.png");
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    font-family: bold, serif;
+    color: #fff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover, cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Globe Content Area */
+.globe-content-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+/* Sections */
+.text-section,
+.globe-section,
+.projects-section {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+    .text-section,
+    .globe-section,
+    .projects-section {
+        flex: 1;
+        max-width: 50.33%;
+    }
+}
+
+@media (max-width: 991px) {
+    .globe-content-area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-section,
+    .globe-section,
+    .projects-section {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Text Section */
+.text-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    position: relative;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    margin-top: 30%;
+    margin-left: 10%;
+    font-size: 2em;
+    color: rgba(169, 245, 32, 0.82);
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Adjustments for Smaller Screens */
+@media (max-width: 767px) {
+    .text-container {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-container {
+        font-size: 2em;
+    }
+}
+
+/* Globe Section */
+.globe-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .globe-section {
+        margin-top: 100px;
+    }
+}
+
+/* Globe Container */
+.globe-container {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    z-index: 1;
+}
+
+@media (min-width: 576px) {
+    .globe-container {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .globe-container {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .globe-container {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .globe-container {
+        width: 900px;
+        height: 900px;
+    }
+}
+
+/* Projects Section */
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.project-card {
+    width: 100%;
+    max-width: 300px;
+    min-height: 150px; /* Adjust height as needed */
+    background-size: 300px;
+    /*border-radius: 60px;*/
+    overflow: hidden;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    color: #f8f8f8;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0.2) no-repeat left top;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: left;
+    padding: 10px; /* Optional for padding around the text */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgb(0, 81, 255);
+}
+.project-card h2 {
+    color: black;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+}
+.project-title {
+    font-size: 1.5rem; /* Adjust as needed */
+    color: #fcf8f8; /* Example color for the title */
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow to title for better visibility */
+}
+
+.project-description {
+    font-size: 1rem; /* Adjust as needed */
+    color: #d1d1d1; /* Example color for the description */
+    margin-top: 5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0); /* Add shadow for better visibility */
+    line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0); /* Add a semi-transparent black background */
+    box-shadow: 0 8px 32px 0 rgba(64, 69, 124, 0);
+    backdrop-filter: blur( 8px );
+    padding: 7px; /* Add padding around the text */
+    border-radius: 8px; /* Optional: add rounded corners */
+    display: inline-block; /* Ensure the background fits around the text */
+}
+.card-image {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.card-content p {
+    margin: 0;
+    font-size: 1em;
+
+}
+
+/* Random Images */
+.random-img {
+    position: absolute;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 30px;
+    opacity: 0; /* Initially hidden */
+    transform: scale(0.8); /* Initially scaled down */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transition for smooth ease-in and ease-out */
+    filter: drop-shadow(0px 4px 6px rgb(0, 70, 231));
+    pointer-events: none;
+    z-index: 5;
+}
+
+/* When hovering over the country, the image eases in */
+.country:hover + .random-img {
+    opacity: 1; /* Fade in the image */
+    transform: scale(1); /* Scale back to normal size */
+}
+
+/* Ensures image eases out when no longer hovering */
+.random-img {
+    opacity: 0; /* Fade out the image */
+    transform: scale(0.8); /* Scale down when not hovering */
+}
+
+/* Information Card */
+.info-card-wrapper {
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.info-card-wrapper.small-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    z-index: -1; /* Place it behind the globe */
+    opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+    .info-card-wrapper.small-screen {
+        top: auto;
+        bottom: 10px;
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+}
+
+.info-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.info-card h2,
+.info-card p {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+    backdrop-filter: blur( 1.5px );
+}
+
+.info-card::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(closest-side, rgba(255, 255, 255, 0.1), transparent);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* Globe Base */
+.globe-base {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.globe-base::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 45%;
+    transform: translateX(-70%);
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(49, 74, 190, 0.72), transparent);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.globe-base-glow {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 40px;
+    border-radius: 50%;
+    filter: blur(15px);
+    z-index: 0;
+}
