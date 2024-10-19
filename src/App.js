@@ -1,18 +1,20 @@
 import React from 'react';
-import {BrowserRouter, BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Home from './Home'; // Home component
-import ConvolutionTool from './ConvolutionTool'; // Convolution Tool component
-import SentAnal from "./SentAnal";
-function App() {
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import ConvolutionTool from './ConvolutionTool';
+import SentAnal from './SentAnal';
+import Header from './Header';
+
+const App = () => {
     return (
-        <BrowserRouter>
+        <Router>
             <Routes>
-                <Route path="/" element={<Home />} /> {/* Home page */}
-                <Route path="/ConvolutionTool" element={<ConvolutionTool />} /> {/* Convolution Tool page */}
+                <Route path="/" element={<Home />} />
+                <Route path="/ConvolutionTool" element={<ConvolutionTool />} />
                 <Route path="/SentAnal.jsx" element={<SentAnal />} />
             </Routes>
-        </BrowserRouter>
+        </Router>
     );
-}
+};
 
 export default App;
