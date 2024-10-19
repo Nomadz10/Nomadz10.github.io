@@ -211,7 +211,7 @@ const Home = () => {
                         {(hoveredCountry || (isSmallScreen && lastHoveredCountry)) && (
                             <div className={`info-card-wrapper ${isSmallScreen ? 'small-screen' : ''}`}>
                                 <animated.div
-                                    key={`${hoveredCountry || lastHoveredCountry}-${hoverKey}`} // Unique key to force re-render
+                                    key={`${hoveredCountry || lastHoveredCountry}-${hoverKey}`}
                                     style={cardAnimation}
                                     className="info-card glassmorphism"
                                 >
