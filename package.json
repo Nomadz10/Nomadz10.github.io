@@ -1,7 +1,7 @@
 {
   "name": "nomadz10-github-io",
   "version": "1.0.0",
-  "homepage": "https://username.github.io/Nomadz10/Nomadz10.github.io",
+  "homepage": "https://github.com/Nomadz10/Nomadz10.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
