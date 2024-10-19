@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79105461-889c-4367-bf03-9820d739a5ad" name="Changes" comment="changed w">
-      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.6c7c3594.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.6c7c3594.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.90381de1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.90381de1.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.90381de1.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/fa-regular-400.bc3722686635b5f86132.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/img_7.b391d2d44f37c05f32d7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="79105461-889c-4367-bf03-9820d739a5ad" name="Changes" comment="changed w" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,26 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Nomadz10.github.io",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Nomadz10.github.io&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vijay\IdeaProjects\Nomadz10.github.io\public" />
@@ -129,6 +106,7 @@
       <workItem from="1729312562920" duration="3904000" />
       <workItem from="1729374276323" duration="312000" />
       <workItem from="1729375073743" duration="186000" />
+      <workItem from="1729375311477" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="update to current format">
       <created>1711114679820</created>
