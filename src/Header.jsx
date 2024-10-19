@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link } from "react-router-dom";
 import './assets/styles/navbar.css'; // Ensure correct CSS path
 
 const Header = () => {
@@ -16,10 +16,10 @@ const Header = () => {
                             <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/ConvolutionTool">Convolution Tool</Link>
+                            <Link className="nav-link" to="/convolution-tool">Convolution Tool</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/SentAnal.jsx">Autonomous Delivery Robots</Link>
+                            <Link className="nav-link" to="/autonomous-delivery-robots">Autonomous Delivery Robots</Link>
                         </li>
                     </ul>
                 </div>

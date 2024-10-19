@@ -10,8 +10,8 @@ const App = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/ConvolutionTool" element={<ConvolutionTool />} />
-                <Route path="/SentAnal.jsx" element={<SentAnal />} />
+                <Route path="/convolution-tool" element={<ConvolutionTool />} /> {/* Custom URL */}
+                <Route path="/autonomous-delivery-robots" element={<SentAnal />} /> {/* Custom URL */}
             </Routes>
         </Router>
     );
