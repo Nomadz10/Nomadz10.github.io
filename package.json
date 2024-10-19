@@ -1,7 +1,10 @@
 {
   "name": "nomadz10-github-io",
   "version": "1.0.0",
+  "homepage": "https://username.github.io/Nomadz10/Nomadz10.github.io",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }

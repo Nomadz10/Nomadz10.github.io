@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Nomadz10/Nomadz10.github.io/static/css/main.6c7c3594.css",
+    "main.js": "/Nomadz10/Nomadz10.github.io/static/js/main.90381de1.js",
+    "static/media/fa-solid-900.ttf": "/Nomadz10/Nomadz10.github.io/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/Nomadz10/Nomadz10.github.io/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/img_7.png": "/Nomadz10/Nomadz10.github.io/static/media/img_7.b391d2d44f37c05f32d7.png",
+    "static/media/fa-solid-900.woff2": "/Nomadz10/Nomadz10.github.io/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/Nomadz10/Nomadz10.github.io/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/Nomadz10/Nomadz10.github.io/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/Nomadz10/Nomadz10.github.io/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Nomadz10/Nomadz10.github.io/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Nomadz10/Nomadz10.github.io/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/Nomadz10/Nomadz10.github.io/index.html",
+    "main.6c7c3594.css.map": "/Nomadz10/Nomadz10.github.io/static/css/main.6c7c3594.css.map",
+    "main.90381de1.js.map": "/Nomadz10/Nomadz10.github.io/static/js/main.90381de1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c7c3594.css",
+    "static/js/main.90381de1.js"
+  ]
+}
