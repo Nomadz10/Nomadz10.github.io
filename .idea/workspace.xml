@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79105461-889c-4367-bf03-9820d739a5ad" name="Changes" comment="changed w" />
+    <list default="true" id="79105461-889c-4367-bf03-9820d739a5ad" name="Changes" comment="changed w">
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.8e390ccf.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.6c7c3594.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/css/main.8e390ccf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.6c7c3594.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +114,7 @@
       <workItem from="1729312562920" duration="3904000" />
       <workItem from="1729374276323" duration="312000" />
       <workItem from="1729375073743" duration="186000" />
-      <workItem from="1729375311477" duration="417000" />
+      <workItem from="1729375311477" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="update to current format">
       <created>1711114679820</created>

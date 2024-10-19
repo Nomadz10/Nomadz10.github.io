@@ -1,7 +1,7 @@
 {
   "name": "nomadz10-github-io",
   "version": "1.0.0",
-  "homepage": "https://vijaymuppalla.com/",
+  "homepage": "https://Nomadz10.github.io/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
