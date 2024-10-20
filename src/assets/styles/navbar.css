@@ -71,9 +71,14 @@
     font-weight: bold;
     font-style: oblique;
     font-family: Dubai, sans-serif;
-    color: antiquewhite;
-    text-decoration: lavender;
+    color: #ffffff;
     transition: color 0.3s ease;
+    border-radius: 10px;
+    background: none !important; /* Ensure no background */
+    box-shadow: none !important; /* Ensure no shadow */
+    border: none; /* Remove any borders */
+    outline: none; /* Remove any outline */
+    padding: 0; /* Ensure no extra padding */
 }
 
 .navbar-brand:hover {

@@ -1,31 +1,35 @@
 import React from "react";
-import './assets/styles/navbar.css'; // Ensure correct CSS path
 import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
+import './assets/styles/navbar.css'; // Ensure correct CSS path
 
 const Header = () => {
-    const navigate = useNavigate(); // Initialize useNavigate
-
-    const handleNavigation = (path) => {
-        navigate(path); // Navigate to the desired path
-    };
+    const navigate = useNavigate(); // Initialize the navigation hook
 
     return (
         <header>
             <nav className="navbar-custom">
                 <div className="container-fluid d-flex justify-content-between align-items-center">
                     {/* Logo or Brand */}
-                    <span className="navbar-brand" onClick={() => handleNavigation("/")}>Vijay Muppalla</span>
+                    <button className="navbar-brand" onClick={() => navigate("/")}>
+                        Vijay Muppalla
+                    </button>
 
                     {/* Navbar links */}
                     <ul className="navbar-nav d-flex">
                         <li className="nav-item">
-                            <span className="nav-link" onClick={() => handleNavigation("/")}>Home</span>
+                            <button className="nav-link" onClick={() => navigate("/")}>
+                                Home
+                            </button>
                         </li>
                         <li className="nav-item">
-                            <span className="nav-link" onClick={() => handleNavigation("/ConvolutionTool")}>Convolution Tool</span>
+                            <button className="nav-link" onClick={() => navigate("/ConvolutionTool")}>
+                                Convolution Tool
+                            </button>
                         </li>
                         <li className="nav-item">
-                            <span className="nav-link" onClick={() => handleNavigation("/SentAnal.jsx")}>Autonomous Delivery Robots</span>
+                            <button className="nav-link" onClick={() => navigate("/SentAnal.jsx")}>
+                                Autonomous Delivery Robots
+                            </button>
                         </li>
                     </ul>
                 </div>
