@@ -1,14 +1,4 @@
 body {
-
-    /*background: linear-gradient(*/
-    /*        rgb(0, 0, 0),*/
-    /*        rgb(0, 0, 0)*/
-    /*),*/
-    /*linear-gradient(*/
-    /*        135deg,*/
-    /*        rgb(25, 0, 255) 0%,*/
-    /*        rgb(17, 0, 255) 100%*/
-    /*);*/
     background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(3, 3, 3, 0.59)), url("img_7.png");
     background-repeat: no-repeat;
     background-size: cover, cover;
