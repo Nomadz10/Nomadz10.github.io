@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79105461-889c-4367-bf03-9820d739a5ad" name="Changes" comment="changed w">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
       <workItem from="1729312562920" duration="3904000" />
       <workItem from="1729374276323" duration="312000" />
       <workItem from="1729375073743" duration="186000" />
-      <workItem from="1729375311477" duration="5824000" />
+      <workItem from="1729375311477" duration="6719000" />
     </task>
     <task id="LOCAL-00001" summary="update to current format">
       <created>1711114679820</created>
