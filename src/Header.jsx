@@ -22,10 +22,10 @@ const Header = () => {
                             <span className="nav-link" onClick={() => handleNavigation("/")}>Home</span>
                         </li>
                         <li className="nav-item">
-                            <span className="nav-link" onClick={() => handleNavigation("/convolution-tool")}>Convolution Tool</span>
+                            <span className="nav-link" onClick={() => handleNavigation("/ConvolutionTool")}>Convolution Tool</span>
                         </li>
                         <li className="nav-item">
-                            <span className="nav-link" onClick={() => handleNavigation("/autonomous-delivery-robots")}>Autonomous Delivery Robots</span>
+                            <span className="nav-link" onClick={() => handleNavigation("/SentAnal.jsx")}>Autonomous Delivery Robots</span>
                         </li>
                     </ul>
                 </div>

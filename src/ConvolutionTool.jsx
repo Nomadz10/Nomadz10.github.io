@@ -402,7 +402,7 @@ function ConvolutionTool() {
                         <div className="row justify-content-center">
                           <div className="col-md-10 select">
                             <select
-                                className="styled-select form-select-sm"
+                                className="styled-select"
                                 id="options"
                                 name="options"
                                 aria-label=".form-select-sm example"
@@ -425,6 +425,7 @@ function ConvolutionTool() {
                       <div className="card-body">
                         <label htmlFor="iterations">Number of Iterations:</label>
                         <input
+                            className="styled-iter number-input-container "
                             type="number"
                             id="iterations"
                             value={iterations}

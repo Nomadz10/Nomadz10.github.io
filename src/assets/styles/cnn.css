@@ -200,7 +200,7 @@ html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
 
 /* Button specific styling */
 .styled-button {
-    background-color: #7115c2;
+    background-color: rgba(113, 21, 194, 0.4);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -214,7 +214,7 @@ html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
 
 /* Button hover effect */
 .styled-button:hover {
-    background-color: #149599;
+    background-color: rgba(20, 149, 153, 0.64);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(29, 185, 195, 0.6);
 }
@@ -232,6 +232,38 @@ html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
     background-color: rgba(0, 0, 0, 0.4); /* Dark transparent background */
     border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
     color: #E0E0E0; /* Light text color */
+}
+.number-input-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.styled-iter {
+    background-color: rgba(0, 0, 0, 0.4); /* Dark transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+    color: #E0E0E0; /* Light text color */
+    border-radius: 10px;
+    text-align: center;
+    width: 60px; /* Adjust width as needed */
+    padding: 5px;
+}
+
+.increment-btn, .decrement-btn {
+    background-color: rgba(0, 0, 0, 0.4); /* Match input background */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0 10px 10px 0; /* Adjust for rounded corners */
+}
+
+.decrement-btn {
+    border-radius: 10px 0 0 10px;
+}
+
+.increment-btn:hover, .decrement-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighter on hover */
 }
 
 .styled-input:focus {

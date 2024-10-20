@@ -6,7 +6,7 @@
     ),
     linear-gradient(
             135deg,
-            rgba(131, 4, 4, 0.2) 0%,
+            rgba(213, 4, 4, 0.12) 0%,
             rgba(24, 63, 161, 0.42) 100%
     );
     backdrop-filter: blur(100px); /* Frosted glass effect */
